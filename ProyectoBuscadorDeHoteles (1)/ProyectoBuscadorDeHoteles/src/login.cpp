@@ -31,12 +31,15 @@ void login::iniciarSesion(){
     cout << endl;
     cout << "Nombre de usuario: ";
     cin >> nombre;
-    if(strcmp(nombre,"admin")==0){
+    if(strcmp(nombre,"usuario")==0){
         cout << "Nombre de usuario correcto, por favor ingrese su contrasena:" << endl;
         cin >> pass;
-        if(strcmp(pass,"admin123")==0){
-            cout<<"Contraseña correcta, bienvenido"<<endl;
+        if(strcmp(pass,"123")==0){
+            cout<<"Contraseña correcta"<<endl;
+
             system("pause>null");
+            cout<<"            " <<endl;
+                cout<<"Bienvenido a SearchTel" <<endl;
             i=4;
         }else {
             cout << "Contrasena incorrecta, por favor ingrese un usuario y contrasena valida" << endl;

@@ -188,3 +188,44 @@
 
 1589881607 c:\users\alegr\desktop\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\login.h
 
+1590059598 source:c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\main.cpp
+	<iostream>
+	"Buscador.h"
+	"Habitacion.h"
+	"login.h"
+	"Hotel.h"
+	<fstream>
+
+1590058951 c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\buscador.h
+	"Hotel.h"
+
+1590058951 c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\hotel.h
+	"Habitacion.h"
+
+1590058951 c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\habitacion.h
+
+1590058951 c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\include\login.h
+
+1590058951 source:c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\buscador.cpp
+	"Buscador.h"
+	<string.h>
+	<iostream>
+
+1590060983 source:c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\habitacion.cpp
+	"Habitacion.h"
+	<string.h>
+	<iostream>
+
+1590061426 source:c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\hotel.cpp
+	"Hotel.h"
+	"Habitacion.h"
+	<string.h>
+	<iostream>
+	<fstream>
+
+1590060794 source:c:\users\mikel\onedrive\documentos\github\searchtelc\proyectobuscadordehoteles (1)\proyectobuscadordehoteles\src\login.cpp
+	"login.h"
+	<iostream>
+	<string.h>
+	<stdio.h>
+

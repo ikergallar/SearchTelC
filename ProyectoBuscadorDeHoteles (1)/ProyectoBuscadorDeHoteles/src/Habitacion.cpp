@@ -42,7 +42,7 @@ void Habitacion::setOcupada(int o){
     ocupada = o;
 }
 void Habitacion::mostrarHabitacion(){
-    cout<<numHabitacion<<" "<<tipo<<" "<<precio;
+    cout<<numHabitacion<<" "<<tipo<<" "<<precio<<"euros ";
     if(ocupada==1)
         cout<<"OCUPADA"<<endl;
     else

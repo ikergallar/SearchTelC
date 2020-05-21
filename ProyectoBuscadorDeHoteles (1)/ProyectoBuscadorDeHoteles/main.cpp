@@ -10,6 +10,7 @@ using namespace std;
 char menu(){
     char opcion;
 
+cout<<"            " <<endl;
     cout<<"1. Ver todos los hoteles"<<endl;
     cout<<"2. Reservar una habitación en un hotel"<<endl;
     cout<<"3. Cancelar la reserva de una habitación"<<endl;

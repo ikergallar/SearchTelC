@@ -100,16 +100,23 @@ void Hotel::pedirDatos(){
             Habitacion *h= new Habitacion();
             h->pedirDatos();
             habitaciones[i] = h;
+
         }
+
     }
+    cout<<" "<<endl;
+    cout<<"Hotel agregado correctamente "<<endl;
+
 }
 void Hotel::mostrarHotel(){
+    cout<<" " <<endl;
     cout<<"NOMBRE HOTEL: "<<nombre<<endl;
     cout<<"DIRECCION: "<<direccion<<endl;
     cout<<"CIUDAD: "<<ciudad<<endl;
     cout<<"NUM ESTRELLAS: "<<numEstrellas<<endl;
     cout<<"NUM HABITACIONES: "<<numHabitaciones<<endl;
     cout<<"INFORMACIÓN DE LAS HABITACIONES..."<<endl;
+
     mostrarHabitaciones();
 
 }
